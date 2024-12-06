@@ -5,7 +5,6 @@ import 'package:e_commerce_app/features/main_layout/home/presentation/cubit/home
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import 'core/my_bloc_observer.dart';
 import 'core/routes_manager/routes.dart';
 import 'di/di.dart';
