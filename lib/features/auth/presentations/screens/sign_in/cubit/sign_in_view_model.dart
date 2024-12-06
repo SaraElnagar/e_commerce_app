@@ -8,8 +8,8 @@ import '../../../../../../domain/use_cases/login_use_case.dart';
 @injectable
 class LoginScreenViewModel extends Cubit<LoginStates> {
   LoginUseCase loginUseCase;
-  var emailController = TextEditingController();
-  var passwordController = TextEditingController();
+  var emailController = TextEditingController(text: "ss987@gmail.com");
+  var passwordController = TextEditingController(text: "sara123456");
 
   LoginScreenViewModel({required this.loginUseCase})
       : super(LoginInitialState());
